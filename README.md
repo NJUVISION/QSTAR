@@ -12,15 +12,17 @@ We first provides a new Viewport-based Omnidirectional Video Quality Assessment 
 
 [Validation Viewport videos](  http://yun.nju.edu.cn/f/f393696b3d/ )
 
+[Demo Video and Saliency Map in Main Function]( http://yun.nju.edu.cn/f/012f2bd3f3/ )
+
 ## Model
 
 ### Quality Model for Viewport Video
 
-We have developed an analytical model  $Q^{VP}_{STAR}$ to connect the perceptual quality of a compressed viewport video with its STAR variables. All four model parameters can be linearly predicted using extracted content features, making the proposed metric generalized to various contents.  This model correlates well with the mean opinion scores (MOSs) of viewport videos. 
+We have developed an analytical model to connect the perceptual quality of a compressed viewport video with its STAR variables. All four model parameters can be linearly predicted using extracted content features, making the proposed metric generalized to various contents.  This model correlates well with the mean opinion scores (MOSs) of viewport videos. 
 
 ### Quality Model for ODV
 
-The viewport-based quality model can be easily extended to infer the overall ODV quality by linearly weighing the saliency-aggregated qualities of salient viewports and the quality of quick-scanning (or non-salient) area. Experiments have shown that inferred model $Q^{ODV}_{STAR}$ correlates with the collected MOS very well with competitive performance to the state-of-the-art algorithm, across another four independent and third-party ODV assessment datasets, including [IPP_IVQD]( https://ieeexplore.ieee.org/document/8350375 ), [IVQAD2017]( https://ieeexplore.ieee.org/document/7965610 ), [ISTOmnidirectional]( https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10752/107520P/Subjective-and-objective-quality-assessment-of-omnidirectional-video/10.1117/12.2321679.short?SSO=1 ) and [VQA-ODV]( https://github.com/Archer-Tatsu/VQA-ODV ).
+The viewport-based quality model can be easily extended to infer the overall ODV quality by linearly weighing the saliency-aggregated qualities of salient viewports and the quality of quick-scanning (or non-salient) area. Experiments have shown that inferred model correlates with the collected MOS very well with competitive performance to the state-of-the-art algorithm, across another four independent and third-party ODV assessment datasets, including [IPP_IVQD]( https://ieeexplore.ieee.org/document/8350375 ), [IVQAD2017]( https://ieeexplore.ieee.org/document/7965610 ), [ISTOmnidirectional]( https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10752/107520P/Subjective-and-objective-quality-assessment-of-omnidirectional-video/10.1117/12.2321679.short?SSO=1 ) and [VQA-ODV]( https://github.com/Archer-Tatsu/VQA-ODV ).
 
 ## Related Scripts  
 
