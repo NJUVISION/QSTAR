@@ -24,7 +24,7 @@ The viewport-based quality model can be easily extended to infer the overall ODV
 
 ## Related Scripts  
 
-We have uploaded the relevant scripts for the  $Q^{ODV}_{STAR}$ calculation. The main function is ``QSTAR_ODV_com.m``.
+We have uploaded the relevant scripts for the model calculation. The main function is ``QSTAR_ODV_com.m``.
 
 ###  **Notes** 
 
